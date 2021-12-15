@@ -9,6 +9,7 @@
   "author": "Evan Williams",
   "license": "ISC",
   "dependencies": {
+    "eslint-plugin-jest": "^25.3.0",
     "jest": "^27.4.5"
   },
   "devDependencies": {
