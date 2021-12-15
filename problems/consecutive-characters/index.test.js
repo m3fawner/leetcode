@@ -1,4 +1,4 @@
-const maxPower = require('./');
+const maxPower = require('.');
 
 // Runtime beat 94.81% of JS submissions
 // Memory usage 51.76%
