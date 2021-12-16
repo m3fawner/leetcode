@@ -1,4 +1,4 @@
-![Code coverage: lines](https://img.shields.io/badge/lines-100%25-brightgreen?logo=jest "lines") ![Code coverage: statements](https://img.shields.io/badge/statements-100%25-brightgreen?logo=jest "statements") ![Code coverage: functions](https://img.shields.io/badge/functions-100%25-brightgreen?logo=jest "functions") ![Code coverage: branches](https://img.shields.io/badge/branches-99.1%25-yellow?logo=jest "branches")   
+![Code coverage: lines](https://img.shields.io/badge/lines-100%25-brightgreen?logo=jest "lines") ![Code coverage: statements](https://img.shields.io/badge/statements-100%25-brightgreen?logo=jest "statements") ![Code coverage: functions](https://img.shields.io/badge/functions-100%25-brightgreen?logo=jest "functions") ![Code coverage: branches](https://img.shields.io/badge/branches-98.33%25-yellow?logo=jest "branches")   
 # Evan's leetcode Project
 
 I got tired of waiting for re-runs for simple things like debugging so I built a project to be able to do leetcode problems in a quicker fashion.
@@ -67,6 +67,10 @@ Each commit will execute jest code coverage to produce the coverage tags at the 
 **Date completed:** June 5, 2018  
 **Runtime:** better than 99.62% of other JS submissions  
 **Memory:** better than 72.32% of other JS submissions  
+## [set mismatch](https://leetcode.com/problems/set-mismatch/)  
+**Date completed:** June 3, 2018  
+**Runtime:** better than 50% of other JS submissions  
+**Memory:** better than 38.29% of other JS submissions  
 ## [subsets](https://leetcode.com/problems/subsets/)  
 **Date completed:** June 3, 2018  
 **Runtime:** better than 99.88% of other JS submissions  
