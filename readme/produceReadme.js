@@ -31,34 +31,51 @@ const getReadmeContent = async () => {
   README += readFileSync(join(process.cwd(), './readme/README.body.md')).toString();
   README += NEW_LINE;
   README += '# Problems';
-  README += NEW_LINE;
 
   const problems = readdirSync(join(process.cwd(), 'problems'), { withFileTypes: true }).filter((dirent) => dirent.isDirectory());
-
-  await Promise.all(problems.map(async ({ name }) => {
-    const module = await import(join(process.cwd(), 'problems', name, 'index.js'));
+  const modules = await Promise.all(problems.map(async ({ name }) => {
     const {
+      default: {
+        dateCompleted, runtime, memory, problemURL,
+      },
+    } = await import(join(process.cwd(), 'problems', name, 'index.js'));
+    return {
+      name: name.replaceAll('-', ' '),
+      dateCompleted: dateCompleted?.toLocaleString('en-us', { dateStyle: 'long' }),
       runtime,
       memory,
       problemURL,
-      dateCompleted,
-    } = module.default;
-    README += `## [${name.replaceAll('-', ' ')}](${problemURL})`;
-    if (dateCompleted) {
-      README += NEW_LINE;
-      README += `**Date completed:** ${dateCompleted.toLocaleString('en-us', {
-        dateStyle: 'long',
-      })}`;
-      README += NEW_LINE;
-      README += `**Runtime:** better than ${runtime}% of other JS submissions`;
-      README += NEW_LINE;
-      README += `**Memory:** better than ${memory}% of other JS submissions`;
-    } else {
-      README += ' (Incomplete)';
-    }
-    README += NEW_LINE;
+    };
   }));
+  const completed = modules.filter(({ dateCompleted }) => dateCompleted);
+  const incomplete = modules.filter(({ dateCompleted }) => !dateCompleted);
 
+  if (completed.length) {
+    README += NEW_LINE;
+    README += '## Completed';
+    README += NEW_LINE;
+    README += '| Problem | Date completed | Runtime (% faster than others) | Memory (% less than others) |\n';
+    README += '| ------- | -------------- | ------------------------------ | --------------------------- |\n';
+    completed.forEach(({
+      dateCompleted,
+      runtime,
+      memory,
+      problemURL,
+      name,
+    }) => {
+      README += `| [${name}](${problemURL}) | ${dateCompleted} | ${runtime} | ${memory} |\n`;
+    });
+  }
+
+  if (incomplete.length) {
+    README += NEW_LINE;
+    README += '## Incomplete';
+    README += NEW_LINE;
+    incomplete.forEach(({ problemURL, name }) => {
+      README += `[${name}](${problemURL})`;
+      README += NEW_LINE;
+    });
+  }
   return README;
 };
 
