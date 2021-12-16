@@ -1,4 +1,4 @@
-![Code coverage: lines](https://img.shields.io/badge/lines-100%25-brightgreen?logo=jest "lines") ![Code coverage: statements](https://img.shields.io/badge/statements-100%25-brightgreen?logo=jest "statements") ![Code coverage: functions](https://img.shields.io/badge/functions-100%25-brightgreen?logo=jest "functions") ![Code coverage: branches](https://img.shields.io/badge/branches-100%25-brightgreen?logo=jest "branches")   
+![Code coverage: lines](https://img.shields.io/badge/lines-100%25-brightgreen?logo=jest "lines") ![Code coverage: statements](https://img.shields.io/badge/statements-100%25-brightgreen?logo=jest "statements") ![Code coverage: functions](https://img.shields.io/badge/functions-100%25-brightgreen?logo=jest "functions") ![Code coverage: branches](https://img.shields.io/badge/branches-98.88%25-yellow?logo=jest "branches")   
 # Evan's leetcode Project
 
 I got tired of waiting for re-runs for simple things like debugging so I built a project to be able to do leetcode problems in a quicker fashion.
@@ -39,6 +39,10 @@ Each commit will execute jest code coverage to produce the coverage tags at the 
 **Date completed:** August 26, 2019  
 **Runtime:** better than 97.92% of other JS submissions  
 **Memory:** better than 100% of other JS submissions  
+## [longest common prefix](https://leetcode.com/problems/longest-common-prefix/)  
+**Date completed:** June 8, 2018  
+**Runtime:** better than 99.96% of other JS submissions  
+**Memory:** better than 90.59% of other JS submissions  
 ## [longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/)  
 **Date completed:** June 4, 2018  
 **Runtime:** better than 30.81% of other JS submissions  
