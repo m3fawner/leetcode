@@ -26,7 +26,9 @@ Export the function from `index.js`, in that directory, used for the problem, an
 Each commit will execute jest code coverage to produce the coverage tags at the top of the README (asserting that your unit tests have enough code coverage to execute each line used for the submission). Additionally, it will then produce a new README highlighting your solutions!
   
 # Problems  
-## [add two numbers](https://leetcode.com/problems/add-two-numbers/) (Incomplete)  
+## [add two numbers](https://leetcode.com/problems/add-two-numbers/)  
+**Runtime:** better than 83.2% of other JS submissions  
+**Memory:** better than 64.71% of other JS submissions  
 ## [consecutive characters](https://leetcode.com/problems/consecutive-characters/)  
 **Runtime:** better than 94.81% of other JS submissions  
 **Memory:** better than 51.76% of other JS submissions  
