@@ -51,3 +51,7 @@ Each commit will execute jest code coverage to produce the coverage tags at the 
 **Date completed:** December 10, 2021  
 **Runtime:** better than 67.79% of other JS submissions  
 **Memory:** better than 49.38% of other JS submissions  
+## [reverse integer](https://leetcode.com/problems/reverse-integer/)  
+**Date completed:** June 5, 2018  
+**Runtime:** better than 99.62% of other JS submissions  
+**Memory:** better than 72.32% of other JS submissions  
