@@ -1,5 +1,3 @@
-// https://leetcode.com/problems/consecutive-characters/
-
 const consecutiveCharacters = (s) => {
   let currentLetter = s[0];
   let currentSize = 0;
@@ -21,4 +19,5 @@ const consecutiveCharacters = (s) => {
 };
 consecutiveCharacters.runtime = 94.81;
 consecutiveCharacters.memory = 51.76;
+consecutiveCharacters.problemURL = 'https://leetcode.com/problems/consecutive-characters/';
 module.exports = consecutiveCharacters;

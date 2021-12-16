@@ -90,5 +90,6 @@ const integerToEnglishWords = (num) => {
 };
 integerToEnglishWords.runtime = 97.92;
 integerToEnglishWords.memory = 100;
+integerToEnglishWords.problemURL = 'https://leetcode.com/problems/integer-to-english-words/';
 
 module.exports = integerToEnglishWords;

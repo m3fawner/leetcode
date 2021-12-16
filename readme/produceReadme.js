@@ -37,9 +37,9 @@ const getReadmeContent = async () => {
 
   await Promise.all(problems.map(async ({ name }) => {
     const module = await import(join(process.cwd(), 'problems', name, 'index.js'));
-    README += `## ${name.replaceAll('-', ' ')}`;
+    const { runtime, memory, problemURL } = module.default;
+    README += `## [${name.replaceAll('-', ' ')}](${problemURL})`;
     README += NEW_LINE;
-    const { runtime, memory } = module.default;
     README += `**Runtime:** ${runtime}%  **Memory:** ${memory}%`;
     README += NEW_LINE;
   }));

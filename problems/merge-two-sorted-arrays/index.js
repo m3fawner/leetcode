@@ -1,4 +1,3 @@
-// https://leetcode.com/problems/merge-two-sorted-lists/
 const identifyNextNode = (l1, l2) => {
   if (l1.val < l2.val) {
     return l1;
@@ -49,4 +48,6 @@ const mergeTwoSortedArrays = (list1, list2) => {
 };
 mergeTwoSortedArrays.runtime = 67.79;
 mergeTwoSortedArrays.memory = 49.38;
+mergeTwoSortedArrays.problemURL = 'https://leetcode.com/problems/merge-two-sorted-lists/';
+
 module.exports = mergeTwoSortedArrays;
