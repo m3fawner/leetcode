@@ -24,7 +24,7 @@ const NEW_LINE = '  \n';
 let README = '';
 
 summaryKeys.forEach((key) => {
-  README += `[](${getBadgeURL(summary, key)}) `;
+  README += `![Code coverage: ${key}](${getBadgeURL(summary, key)} "${key}") `;
 });
 README += NEW_LINE;
 README += readFileSync(join(process.cwd(), './readme/README.body.md')).toString();
