@@ -41,13 +41,23 @@ const getReadmeContent = async () => {
     } = await import(join(process.cwd(), 'problems', name, 'index.js'));
     return {
       name: name.replaceAll('-', ' '),
-      dateCompleted: dateCompleted?.toLocaleString('en-us', { dateStyle: 'long' }),
+      dateCompleted,
       runtime,
       memory,
       problemURL,
     };
   }));
-  const completed = modules.filter(({ dateCompleted }) => dateCompleted);
+  const completed = modules
+    .filter(({ dateCompleted }) => dateCompleted)
+    .sort((
+      { dateCompleted: aDate, runtime: aRuntime },
+      { dateCompleted: bDate, runtime: bRuntime },
+    ) => {
+      if (aDate.getTime() < bDate.getTime()) {
+        return 1;
+      }
+      return aRuntime < bRuntime ? 1 : -1;
+    });
   const incomplete = modules.filter(({ dateCompleted }) => !dateCompleted);
 
   if (completed.length) {
@@ -63,7 +73,7 @@ const getReadmeContent = async () => {
       problemURL,
       name,
     }) => {
-      README += `| [${name}](${problemURL}) | ${dateCompleted} | ${runtime} | ${memory} |\n`;
+      README += `| [${name}](${problemURL}) | ${dateCompleted.toLocaleString('en-us', { dateStyle: 'long' })} | ${runtime} | ${memory} |\n`;
     });
   }
 
