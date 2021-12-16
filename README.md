@@ -22,19 +22,21 @@ Export the function from `index.js`, in that directory, used for the problem, an
 | problemURL | The leetcode problem URL |
 | runtime    | The %, expressed as a number, of submissions you ran faster than |
 | memory     | The %, expressed as a number, of submission in which you had better memory allocation |
+| dateCompleted | The date completed as a date object |
 
 Each commit will execute jest code coverage to produce the coverage tags at the top of the README (asserting that your unit tests have enough code coverage to execute each line used for the submission). Additionally, it will then produce a new README highlighting your solutions!
   
 # Problems  
 ## [add two numbers](https://leetcode.com/problems/add-two-numbers/)  
+**Date completed:** December 16, 2021  
 **Runtime:** better than 83.2% of other JS submissions  
 **Memory:** better than 64.71% of other JS submissions  
 ## [consecutive characters](https://leetcode.com/problems/consecutive-characters/)  
-**Runtime:** better than 94.81% of other JS submissions  
+**Date completed:** December 13, 2021**Runtime:** better than 94.81% of other JS submissions  
 **Memory:** better than 51.76% of other JS submissions  
 ## [integer to english words](https://leetcode.com/problems/integer-to-english-words/)  
-**Runtime:** better than 97.92% of other JS submissions  
+**Date completed:** August 26, 2019**Runtime:** better than 97.92% of other JS submissions  
 **Memory:** better than 100% of other JS submissions  
 ## [merge two sorted arrays](https://leetcode.com/problems/merge-two-sorted-lists/)  
-**Runtime:** better than 67.79% of other JS submissions  
+**Date completed:** December 10, 2021**Runtime:** better than 67.79% of other JS submissions  
 **Memory:** better than 49.38% of other JS submissions  

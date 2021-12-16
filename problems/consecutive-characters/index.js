@@ -20,4 +20,6 @@ const consecutiveCharacters = (s) => {
 consecutiveCharacters.runtime = 94.81;
 consecutiveCharacters.memory = 51.76;
 consecutiveCharacters.problemURL = 'https://leetcode.com/problems/consecutive-characters/';
+consecutiveCharacters.dateCompleted = new Date('12/13/2021');
+
 module.exports = consecutiveCharacters;

@@ -21,5 +21,6 @@ Export the function from `index.js`, in that directory, used for the problem, an
 | problemURL | The leetcode problem URL |
 | runtime    | The %, expressed as a number, of submissions you ran faster than |
 | memory     | The %, expressed as a number, of submission in which you had better memory allocation |
+| dateCompleted | The date completed as a date object |
 
 Each commit will execute jest code coverage to produce the coverage tags at the top of the README (asserting that your unit tests have enough code coverage to execute each line used for the submission). Additionally, it will then produce a new README highlighting your solutions!

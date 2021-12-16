@@ -32,4 +32,6 @@ const addTwoNumbers = (l1, l2) => {
 addTwoNumbers.runtime = 83.20;
 addTwoNumbers.memory = 64.71;
 addTwoNumbers.problemURL = 'https://leetcode.com/problems/add-two-numbers/';
+addTwoNumbers.dateCompleted = new Date('12/16/2021');
+
 module.exports = addTwoNumbers;

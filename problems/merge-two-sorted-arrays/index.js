@@ -49,5 +49,6 @@ const mergeTwoSortedArrays = (list1, list2) => {
 mergeTwoSortedArrays.runtime = 67.79;
 mergeTwoSortedArrays.memory = 49.38;
 mergeTwoSortedArrays.problemURL = 'https://leetcode.com/problems/merge-two-sorted-lists/';
+mergeTwoSortedArrays.dateCompleted = new Date('12/10/2021');
 
 module.exports = mergeTwoSortedArrays;

@@ -37,10 +37,18 @@ const getReadmeContent = async () => {
 
   await Promise.all(problems.map(async ({ name }) => {
     const module = await import(join(process.cwd(), 'problems', name, 'index.js'));
-    const { runtime, memory, problemURL } = module.default;
-    const isComplete = runtime && memory;
+    const {
+      runtime,
+      memory,
+      problemURL,
+      dateCompleted,
+    } = module.default;
     README += `## [${name.replaceAll('-', ' ')}](${problemURL})`;
-    if (isComplete) {
+    if (dateCompleted) {
+      README += NEW_LINE;
+      README += `**Date completed:** ${dateCompleted.toLocaleString('en-us', {
+        dateStyle: 'long',
+      })}`;
       README += NEW_LINE;
       README += `**Runtime:** better than ${runtime}% of other JS submissions`;
       README += NEW_LINE;
