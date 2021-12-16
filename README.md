@@ -1,4 +1,4 @@
-![Code coverage: lines](https://img.shields.io/badge/lines-100%25-brightgreen?logo=jest "lines") ![Code coverage: statements](https://img.shields.io/badge/statements-100%25-brightgreen?logo=jest "statements") ![Code coverage: functions](https://img.shields.io/badge/functions-100%25-brightgreen?logo=jest "functions") ![Code coverage: branches](https://img.shields.io/badge/branches-99.03%25-yellow?logo=jest "branches")   
+![Code coverage: lines](https://img.shields.io/badge/lines-100%25-brightgreen?logo=jest "lines") ![Code coverage: statements](https://img.shields.io/badge/statements-100%25-brightgreen?logo=jest "statements") ![Code coverage: functions](https://img.shields.io/badge/functions-100%25-brightgreen?logo=jest "functions") ![Code coverage: branches](https://img.shields.io/badge/branches-99.1%25-yellow?logo=jest "branches")   
 # Evan's leetcode Project
 
 I got tired of waiting for re-runs for simple things like debugging so I built a project to be able to do leetcode problems in a quicker fashion.
@@ -59,6 +59,10 @@ Each commit will execute jest code coverage to produce the coverage tags at the 
 **Date completed:** December 10, 2021  
 **Runtime:** better than 67.79% of other JS submissions  
 **Memory:** better than 49.38% of other JS submissions  
+## [minimum number of arrows to burst balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)  
+**Date completed:** May 9, 2019  
+**Runtime:** better than 38.55% of other JS submissions  
+**Memory:** better than 38.55% of other JS submissions  
 ## [reverse integer](https://leetcode.com/problems/reverse-integer/)  
 **Date completed:** June 5, 2018  
 **Runtime:** better than 99.62% of other JS submissions  
