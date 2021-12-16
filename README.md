@@ -41,5 +41,6 @@ Each commit will execute jest code coverage to produce the coverage tags at the 
 | [minimum number of arrows to burst balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | May 9, 2019 | 38.55 | 38.55 |
 | [reverse integer](https://leetcode.com/problems/reverse-integer/) | June 5, 2018 | 99.62 | 72.32 |
 | [longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/) | June 4, 2018 | 30.81 | 45.49 |
-| [subsets](https://leetcode.com/problems/subsets/) | June 3, 2018 | 99.88 | 16.2 |
 | [set mismatch](https://leetcode.com/problems/set-mismatch/) | June 3, 2018 | 50 | 38.29 |
+| [string to integer atoi](https://leetcode.com/problems/string-to-integer-atoi/) | December 16, 2021 | 24.59 | 51.44 |
+| [subsets](https://leetcode.com/problems/subsets/) | June 3, 2018 | 99.88 | 16.2 |
