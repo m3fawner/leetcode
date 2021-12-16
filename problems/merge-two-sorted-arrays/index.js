@@ -5,7 +5,8 @@ const identifyNextNode = (l1, l2) => {
   }
   return l2;
 };
-module.exports = (list1, list2) => {
+
+const mergeTwoSortedArrays = (list1, list2) => {
   let currentL1 = list1;
   let currentL2 = list2;
   let head = null;
@@ -46,3 +47,6 @@ module.exports = (list1, list2) => {
   }
   return head;
 };
+mergeTwoSortedArrays.runtime = 67.79;
+mergeTwoSortedArrays.memory = 49.38;
+module.exports = mergeTwoSortedArrays;

@@ -1,8 +1,6 @@
 const mergeTwoSortedArrays = require('.');
 const { createLinkedListFromArray } = require('../../common/ListNode');
 
-// Runtime beat 67.79% of JS submissions
-// Memory usage 49.38%
 describe(mergeTwoSortedArrays, () => {
   it.each([
     [[1, 2, 4], [1, 3, 4], [1, 1, 2, 3, 4, 4]],

@@ -4,3 +4,15 @@
 I got tired of waiting for re-runs for simple things like debugging so I built a project to be able to do leetcode problems in a quicker fashion.
 
 Plus, this way I can own the source and build a project around it!
+
+# README...README?
+
+This readme is automatically generated from the problems directory. The runtime & memory usage is assigned onto the function exported in the index.js, and is used to produce the problem name & runtime/memory values you see in the readme. This markdown? Joined via the produceReadme.js file. READMEception.
+  
+# Problems  
+## consecutive characters  
+**Runtime:** 94.81%  **Memory:** 51.76%  
+## integer to english words  
+**Runtime:** 97.92%  **Memory:** 100%  
+## merge two sorted arrays  
+**Runtime:** 67.79%  **Memory:** 49.38%  

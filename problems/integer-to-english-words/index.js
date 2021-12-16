@@ -66,7 +66,7 @@ const handleThrees = (num, level) => {
   }
   return parts.join(' ');
 };
-module.exports = (num) => {
+const integerToEnglishWords = (num) => {
   if (num === 0) {
     return SINGLE_DIGIT[0];
   }
@@ -88,3 +88,7 @@ module.exports = (num) => {
   }
   return parts.reverse().filter((a) => a).join(' ');
 };
+integerToEnglishWords.runtime = 97.92;
+integerToEnglishWords.memory = 100;
+
+module.exports = integerToEnglishWords;
