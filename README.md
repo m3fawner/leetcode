@@ -31,16 +31,16 @@ Each commit will execute jest code coverage to produce the coverage tags at the 
 | Problem | Date completed | Runtime (% faster than others) | Memory (% less than others) |
 | ------- | -------------- | ------------------------------ | --------------------------- |
 | [add two numbers](https://leetcode.com/problems/add-two-numbers/) | December 16, 2021 | 83.2 | 64.71 |
-| [consecutive characters](https://leetcode.com/problems/consecutive-characters/) | December 13, 2021 | 94.81 | 51.76 |
-| [first missing positive](https://leetcode.com/problems/first-missing-positive/) | August 20, 2019 | 100 | 100 |
-| [integer to english words](https://leetcode.com/problems/integer-to-english-words/) | August 26, 2019 | 97.92 | 100 |
-| [longest common prefix](https://leetcode.com/problems/longest-common-prefix/) | June 8, 2018 | 99.96 | 90.59 |
-| [longest substring without repeating chars](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | June 4, 2018 | 89.4 | 41.25 |
-| [merge two sorted arrays](https://leetcode.com/problems/merge-two-sorted-lists/) | December 10, 2021 | 67.79 | 49.38 |
-| [valid parenthesis](https://leetcode.com/problems/valid-parentheses/) | August 20, 2019 | 100 | 100 |
-| [minimum number of arrows to burst balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | May 9, 2019 | 38.55 | 38.55 |
-| [reverse integer](https://leetcode.com/problems/reverse-integer/) | June 5, 2018 | 99.62 | 72.32 |
-| [longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/) | June 4, 2018 | 30.81 | 45.49 |
-| [set mismatch](https://leetcode.com/problems/set-mismatch/) | June 3, 2018 | 50 | 38.29 |
 | [string to integer atoi](https://leetcode.com/problems/string-to-integer-atoi/) | December 16, 2021 | 24.59 | 51.44 |
+| [consecutive characters](https://leetcode.com/problems/consecutive-characters/) | December 13, 2021 | 94.81 | 51.76 |
+| [merge two sorted arrays](https://leetcode.com/problems/merge-two-sorted-lists/) | December 10, 2021 | 67.79 | 49.38 |
+| [integer to english words](https://leetcode.com/problems/integer-to-english-words/) | August 26, 2019 | 97.92 | 100 |
+| [valid parenthesis](https://leetcode.com/problems/valid-parentheses/) | August 20, 2019 | 100 | 100 |
+| [first missing positive](https://leetcode.com/problems/first-missing-positive/) | August 20, 2019 | 100 | 100 |
+| [minimum number of arrows to burst balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | May 9, 2019 | 38.55 | 38.55 |
+| [longest common prefix](https://leetcode.com/problems/longest-common-prefix/) | June 8, 2018 | 99.96 | 90.59 |
+| [reverse integer](https://leetcode.com/problems/reverse-integer/) | June 5, 2018 | 99.62 | 72.32 |
+| [longest substring without repeating chars](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | June 4, 2018 | 89.4 | 41.25 |
+| [longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/) | June 4, 2018 | 30.81 | 45.49 |
 | [subsets](https://leetcode.com/problems/subsets/) | June 3, 2018 | 99.88 | 16.2 |
+| [set mismatch](https://leetcode.com/problems/set-mismatch/) | June 3, 2018 | 50 | 38.29 |

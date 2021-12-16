@@ -55,8 +55,10 @@ const getReadmeContent = async () => {
     ) => {
       if (aDate.getTime() < bDate.getTime()) {
         return 1;
+      } if (aDate.getTime() === bDate.getTime()) {
+        return aRuntime < bRuntime ? 1 : -1;
       }
-      return aRuntime < bRuntime ? 1 : -1;
+      return -1;
     });
   const incomplete = modules.filter(({ dateCompleted }) => !dateCompleted);
 
