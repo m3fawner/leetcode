@@ -32,11 +32,14 @@ Each commit will execute jest code coverage to produce the coverage tags at the 
 **Runtime:** better than 83.2% of other JS submissions  
 **Memory:** better than 64.71% of other JS submissions  
 ## [consecutive characters](https://leetcode.com/problems/consecutive-characters/)  
-**Date completed:** December 13, 2021**Runtime:** better than 94.81% of other JS submissions  
+**Date completed:** December 13, 2021  
+**Runtime:** better than 94.81% of other JS submissions  
 **Memory:** better than 51.76% of other JS submissions  
 ## [integer to english words](https://leetcode.com/problems/integer-to-english-words/)  
-**Date completed:** August 26, 2019**Runtime:** better than 97.92% of other JS submissions  
+**Date completed:** August 26, 2019  
+**Runtime:** better than 97.92% of other JS submissions  
 **Memory:** better than 100% of other JS submissions  
 ## [merge two sorted arrays](https://leetcode.com/problems/merge-two-sorted-lists/)  
-**Date completed:** December 10, 2021**Runtime:** better than 67.79% of other JS submissions  
+**Date completed:** December 10, 2021  
+**Runtime:** better than 67.79% of other JS submissions  
 **Memory:** better than 49.38% of other JS submissions  
