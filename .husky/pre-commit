@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm test && npm run produce-readme && git add README.md
+npm run eslint && npm test && npm run produce-readme && git add README.md

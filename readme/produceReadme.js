@@ -38,11 +38,16 @@ const getReadmeContent = async () => {
   await Promise.all(problems.map(async ({ name }) => {
     const module = await import(join(process.cwd(), 'problems', name, 'index.js'));
     const { runtime, memory, problemURL } = module.default;
+    const isComplete = runtime && memory;
     README += `## [${name.replaceAll('-', ' ')}](${problemURL})`;
-    README += NEW_LINE;
-    README += `**Runtime:** better than ${runtime}% of other JS submissions`;
-    README += NEW_LINE;
-    README += `**Memory:** better than ${memory}% of other JS submissions`;
+    if (isComplete) {
+      README += NEW_LINE;
+      README += `**Runtime:** better than ${runtime}% of other JS submissions`;
+      README += NEW_LINE;
+      README += `**Memory:** better than ${memory}% of other JS submissions`;
+    } else {
+      README += ' (Incomplete)';
+    }
     README += NEW_LINE;
   }));
 
