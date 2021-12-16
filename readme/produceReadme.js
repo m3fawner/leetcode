@@ -40,7 +40,9 @@ const getReadmeContent = async () => {
     const { runtime, memory, problemURL } = module.default;
     README += `## [${name.replaceAll('-', ' ')}](${problemURL})`;
     README += NEW_LINE;
-    README += `**Runtime:** ${runtime}%  **Memory:** ${memory}%`;
+    README += `**Runtime:** better than ${runtime}% of other JS submissions`;
+    README += NEW_LINE;
+    README += `**Memory:** better than ${memory}% of other JS submissions`;
     README += NEW_LINE;
   }));
 

@@ -7,12 +7,14 @@ Plus, this way I can own the source and build a project around it!
 
 # README...README?
 
-This readme is automatically generated from the problems directory. The runtime & memory usage is assigned onto the function exported in the index.js, and is used to produce the problem name & runtime/memory values you see in the readme. This markdown? Joined via the produceReadme.js file. READMEception.
-  
+This readme is automatically generated from the problems directory. The runtime & memory usage is assigned onto the function exported in the index.js, and is used to produce the problem name & runtime/memory values you see in the readme. This markdown? Joined via the produceReadme.js file. READMEception.  
 # Problems  
 ## [consecutive characters](https://leetcode.com/problems/consecutive-characters/)  
-**Runtime:** 94.81%  **Memory:** 51.76%  
+**Runtime:** better than 94.81% of other JS submissions  
+**Memory:** better than 51.76% of other JS submissions  
 ## [integer to english words](https://leetcode.com/problems/integer-to-english-words/)  
-**Runtime:** 97.92%  **Memory:** 100%  
+**Runtime:** better than 97.92% of other JS submissions  
+**Memory:** better than 100% of other JS submissions  
 ## [merge two sorted arrays](https://leetcode.com/problems/merge-two-sorted-lists/)  
-**Runtime:** 67.79%  **Memory:** 49.38%  
+**Runtime:** better than 67.79% of other JS submissions  
+**Memory:** better than 49.38% of other JS submissions  
