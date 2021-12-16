@@ -12,7 +12,7 @@ const setMismatch = (nums) => {
   const withDupeRemoved = sorted.slice(0, index).concat(sorted.slice(index + 1));
   for (let i = 0; i < withDupeRemoved.length; i += 1) {
     if (withDupeRemoved[i] !== i + 1) {
-      expected = withDupeRemoved[i] < i + 1 ? i - 1 : i + 1;
+      expected = i + 1;
       break;
     }
   }
