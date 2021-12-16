@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "produce-readme": "node readme/produceReadme.js",
+    "prepare": "husky install"
   },
   "author": "Evan Williams",
   "license": "ISC",
   "dependencies": {
     "eslint-plugin-jest": "^25.3.0",
+    "husky": "^7.0.4",
     "jest": "^27.4.5"
   },
   "devDependencies": {
