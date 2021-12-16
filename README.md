@@ -39,6 +39,10 @@ Each commit will execute jest code coverage to produce the coverage tags at the 
 **Date completed:** August 26, 2019  
 **Runtime:** better than 97.92% of other JS submissions  
 **Memory:** better than 100% of other JS submissions  
+## [longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/)  
+**Date completed:** June 4, 2018  
+**Runtime:** better than 30.81% of other JS submissions  
+**Memory:** better than 45.49% of other JS submissions  
 ## [merge two sorted arrays](https://leetcode.com/problems/merge-two-sorted-lists/)  
 **Date completed:** December 10, 2021  
 **Runtime:** better than 67.79% of other JS submissions  
