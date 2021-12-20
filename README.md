@@ -31,6 +31,7 @@ Each commit will execute jest code coverage to produce the coverage tags at the 
 | Problem | Date completed | Runtime (% faster than others) | Memory (% less than others) |
 | ------- | -------------- | ------------------------------ | --------------------------- |
 | [minimum absolute difference](https://leetcode.com/problems/minimum-absolute-difference/) | December 20, 2021 | 70.76 | 54.66 |
+| [remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | December 20, 2021 | 62.66 | 69.86 |
 | [add two numbers](https://leetcode.com/problems/add-two-numbers/) | December 16, 2021 | 83.2 | 64.71 |
 | [string to integer atoi](https://leetcode.com/problems/string-to-integer-atoi/) | December 16, 2021 | 24.59 | 51.44 |
 | [consecutive characters](https://leetcode.com/problems/consecutive-characters/) | December 13, 2021 | 94.81 | 51.76 |
