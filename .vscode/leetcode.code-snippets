@@ -25,7 +25,7 @@
 			"${funcName}.runtime = 0;",
 			"${funcName}.memory = 0;",
 			"${funcName}.problemURL = '';",
-			"${funcName}.dateCompleted = new Date();",
+			"${funcName}.dateCompleted = null;",
 			"",
 			"module.exports = ${funcName};",
 			""
