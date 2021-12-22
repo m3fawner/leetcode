@@ -38,7 +38,7 @@ const getReadmeContent = async () => {
       default: {
         dateCompleted, runtime, memory, problemURL,
       },
-    } = await import(join(process.cwd(), 'problems', name, 'index.js'));
+    } = await import(join('file://', process.cwd(), 'problems', name, 'index.js'));
     return {
       name: name.replaceAll('-', ' '),
       dateCompleted,
